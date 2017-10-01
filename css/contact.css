@@ -1,0 +1,309 @@
+  @font-face {
+  font-family: 'Conv_PT_Serif-Web-Regular';
+  src: url('../fonts/PT_Serif/regular/PT_Serif-Web-Regular.eot');
+  src: local('â˜º'), url('../fonts/PT_Serif/regular/PT_Serif-Web-Regular.woff') format('woff'), url('../fonts/PT_Serif/regular/PT_Serif-Web-Regular.ttf') format('truetype'), url('../fonts/PT_Serif/regular/PT_Serif-Web-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+      font-family: 'OpenSans-Regular';
+      src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+.contact .container {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+ 
+.nav-block {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+}
+
+
+.point {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: #000;
+    display: block;
+    transition: all .4s ease;
+}
+
+.point-active {
+    background-color: #E5352B !important;
+    width: 9px;
+    height: 9px;
+    
+}
+
+.point-2 {
+   margin: 26px 0 26px 0;
+}
+
+
+.content-block {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    flex-direction: row;
+    min-height: 400px;
+}
+
+.arrow-up {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+}
+
+.contact-block {
+
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.contact .main-block {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	width: 80%;
+	bottom: 130px;
+	align-items: center;
+}
+.photo-block {
+	width: 22%;
+}
+
+.text-block {
+	width: 48%;
+}
+.photo-block img {
+	border-radius: 50%;
+	width: 90%;
+}
+
+.text-block span,
+.text-block a,
+.block-row span a {
+	margin: 4% 0;
+	display: block;
+	font-size: 16px;
+	color: #333;
+	font-family: 'OpenSans-Regular';
+
+}
+
+.text-block .autors {
+	display: block;
+	color: #EE4036;
+	font-size: 18px;
+	font-family: 'Conv_PT_Serif-Web-Regular';
+} 
+
+
+.bottom-block {
+	margin-left: 50%;
+	width: 50%;
+	height: 75%;
+	display: flex;
+	flex-direction: column;
+	    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.block-row  {
+	margin-bottom: 10px;
+	width: 65%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.block-row span,
+.logo-verstak {
+	width: 40%;
+}
+
+
+
+.block-row
+ {
+	font-size: 16px;
+	color: #333;
+	font-family: 'OpenSans-Regular';
+}
+
+
+
+.map-icon {
+
+	   
+    margin-bottom: 45px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+
+
+
+@media (max-width: 1250px) {
+    .contact.modal {
+        min-height: 600px;
+        margin: 0 auto 20px;
+        top: 20px;
+    }
+
+   .right-share {
+   	top: 295px;
+
+   }
+
+    .photo-block {
+    	width: 30%;
+    }
+
+    .map-icon {
+    margin-bottom: 65px;
+}
+}
+
+
+
+
+@media (max-width: 750px) {
+
+	.arrow-up {
+		display: none;
+	}
+
+	.contact .main-block {
+     flex-direction: column;
+     height: 100%;	
+         min-height: 740px;
+ }
+
+.contact-block {
+	min-height: 765px;
+}
+ .bottom-block {
+	margin-left: 0;
+	    width: 100%;
+    
+    align-items: center;
+ }
+
+
+ .text-block {
+    width: 75%;
+}
+.photo-block {
+    width: 50%;
+}
+
+.nav-block {
+	left: 38px;
+    top: 61%;
+
+}
+
+.right-share {
+	top: 360px;
+	right: 0;
+}
+
+.block-row span,
+.logo-verstak {
+	margin-left: -8%;
+}
+
+.map-icon {
+	    margin-bottom: -260px;
+}
+}
+
+@media (max-width: 500px) {
+	.contact .main-block {
+		    min-height: 416px;
+	}
+	 .modal {
+		width: 100%;
+	}
+	.photo-block {
+    width: 75%;
+}
+.text-block {
+	width: 100%;
+}
+.bottom-block {
+	
+   
+    height: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.block-row span,
+ .logo-verstak {
+ 	margin-left: 0;
+    width: 100%;
+}
+
+.logo-verstak {
+	margin-left: 45px;
+}
+
+.logo {
+	display: none;
+}
+
+.cls-btn {
+	display: none;
+}
+
+.nav-block {
+	display: none;
+}
+.right-share {
+	display: none;
+}
+.logo-autor {
+	display: none;
+}
+
+.dev-autor {
+	left: 28%;
+    width: 50% !important;
+    position: absolute;
+    bottom: -170px;
+}
+
+ .hidden-br {
+	display: none;
+	visibility:collapse;
+}
+
+.block-row span a {
+    display: inline-block;
+}
+
+.map-icon {
+	left: 41%;
+	padding-bottom: 15px;
+}
+}

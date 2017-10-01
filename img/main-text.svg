@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 387.5 180.5" style="enable-background:new 0 0 387.5 180.5;" xml:space="preserve">
+<style type="text/css">
+  @font-face {
+      font-family: 'OpenSans-Bold';
+      src: url('../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  @font-face {
+      font-family: 'Conv_PT_Serif-Web-BoldItalic';
+      src: url('../fonts/PT_Serif-Web-BoldItalic.eot');
+      src: local('вє'), url('../fonts/PT_Serif-Web-BoldItalic.woff') format('woff'), url('../fonts/PT_Serif-Web-BoldItalic.ttf') format('truetype'), url('../fonts/PT_Serif-Web-BoldItalic.svg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+    
+	.st0{fill:#010101;}
+	.st1{font-family:'Conv_PT_Serif-Web-BoldItalic';}
+	.st2{font-size:65px;}
+	.st3{font-family: 'OpenSans-Bold';}
+	.st4{font-size:14px;}
+	.st5{letter-spacing:1px;}
+	.st6{fill:none;stroke:#EF4137;stroke-width:0.9695;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#EF4137;stroke-miterlimit:10;}
+</style>
+<text transform="matrix(1 0 0 1 1.3845 51.1392)"><tspan x="0" y="0" class="st0 st1 st2">Red Balloons</tspan><tspan x="125.6" y="116" class="st0 st1 st2">Map</tspan></text>
+<text transform="matrix(1 0 0 1 8.7622 89.1831)"><tspan x="18" y="0" class="st0 st3 st4 st5">проект для повышения осведомлённости</tspan><tspan x="38" y="20" class="st0 st3 st4 st5">о мышечной дистрофии дюшенна</tspan></text>
+<line class="st6" x1="13.2" y1="65" x2="373.2" y2="65"/>
+<line class="st7" x1="205.5" y1="123.5" x2="341.7" y2="123.5"/>
+<line class="st7" x1="40.5" y1="123.5" x2="121" y2="123.5"/>
+</svg>
